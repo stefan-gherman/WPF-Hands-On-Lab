@@ -397,11 +397,6 @@
             ProductList
             </summary>
         </member>
-        <member name="M:HandsOnLab1.ProductList.#ctor">
-            <summary>
-            Initializes a new instance of the <see cref="T:HandsOnLab1.ProductList"/> class.
-            </summary>
-        </member>
         <member name="M:HandsOnLab1.ProductList.InitializeComponent">
             <summary>
             InitializeComponent

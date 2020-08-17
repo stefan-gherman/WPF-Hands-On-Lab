@@ -20,12 +20,13 @@ namespace HandsOnLab1
     /// </summary>
     public partial class ProductList : System.Windows.Controls.UserControl
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="ProductList"/> class.
-        /// </summary>
+        public ProductSummaryCollection Products { get; }
+
         public ProductList()
         {
             InitializeComponent();
+            Products = ProductAgent.GetProductList();
+            DataContext = this;
         }
     }
 }
