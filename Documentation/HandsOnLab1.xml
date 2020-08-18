@@ -24,11 +24,19 @@
         </member>
         <member name="T:HandsOnLab1.CustomerEdit">
             <summary>
-            Interaction logic for CustomerEdit.xaml
-            </summary>
-            <summary>
             CustomerEdit
             </summary>
+        </member>
+        <member name="E:HandsOnLab1.CustomerEdit.PropertyChanged">
+            <summary>
+            Implicit implementation of the INotifyPropertyChanged.PropertyChanged event.
+            /// </summary>
+        </member>
+        <member name="M:HandsOnLab1.CustomerEdit.OnPropertyChanged(System.String)">
+            <summary>
+            Throws the <c>PropertyChanged</c> event.
+            </summary>
+            <param name="propertyName">The name of theproperty that was modified.</param>
         </member>
         <member name="M:HandsOnLab1.CustomerEdit.InitializeComponent">
             <summary>
