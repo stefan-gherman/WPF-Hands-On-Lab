@@ -22,6 +22,19 @@
             Application Entry Point.
             </summary>
         </member>
+        <member name="T:HandsOnLab1.CustomerEdit">
+            <summary>
+            Interaction logic for CustomerEdit.xaml
+            </summary>
+            <summary>
+            CustomerEdit
+            </summary>
+        </member>
+        <member name="M:HandsOnLab1.CustomerEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
         <member name="T:HandsOnLab1.Window1">
             <summary>
             Interaction logic for Window1.xaml
@@ -343,22 +356,22 @@
         </member>
         <member name="T:HandsOnLab1.Converters.UriToBitmapConverter">
             <summary>
-            Converter for transforming between <see cref="T:System.Uri"/> and <see cref="T:BitMap"/>.
+            Converter for transforming between <see cref="T:System.Uri"/> and <see cref="!:BitMap"/>.
             </summary>
         </member>
         <member name="M:HandsOnLab1.Converters.UriToBitmapConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
             <summary>
-            Convert <see cref="T:System.Uri"/> to <see cref="T:BitMap"/>
+            Convert <see cref="T:System.Uri"/> to <see cref="!:BitMap"/>
             </summary>
             <param name="value">An Unique Resource Identifier.</param>
             <param name="targetType">Target type.</param>
             <param name="parameter">Additional parameter</param>
             <param name="culture">CultureInfo</param>
-            <returns><see cref="T:BitMap"/> object based on the uri.</returns>
+            <returns><see cref="!:BitMap"/> object based on the uri.</returns>
         </member>
         <member name="M:HandsOnLab1.Converters.UriToBitmapConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
             <summary>
-            Convert a <see cref="T:BitMap"/> image to an <see cref="T:System.Uri"/>.
+            Convert a <see cref="!:BitMap"/> image to an <see cref="T:System.Uri"/>.
             </summary>
             <param name="value">The bitmap image to convert.</param>
             <param name="targetType">Target type</param>
@@ -439,36 +452,6 @@
             Provide <see cref="T:HandsOnLab1.ClientEntities.ProductSummaryCollection"/> of current products.
             </summary>
             <returns><see cref="T:HandsOnLab1.ClientEntities.ProductSummaryCollection"/></returns>
-        </member>
-        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
-            <summary>
-            GeneratedInternalTypeHelper
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
-            <summary>
-            CreateInstance
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
-            <summary>
-            GetPropertyValue
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
-            <summary>
-            SetPropertyValue
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
-            <summary>
-            CreateDelegate
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
-            <summary>
-            AddEventHandler
-            </summary>
         </member>
     </members>
 </doc>
